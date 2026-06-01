@@ -19,19 +19,19 @@
 | State management | **`flutter_bloc` with Cubits** | Simple, testable, explicit state for a small app |
 | Backend | **Dart Frog** | Lightweight, file-based routing, pure Dart |
 | Language | **Dart end-to-end** (app, backend, tooling) | One language across the repo |
-| LLM | **`gemini-3.5-flash`** (REST) | Current GA Gemini Flash (May 2026); free tier; fast; good instruction following |
+| LLM | **`gemini-2.5-flash`** (REST), configurable | `gemini-3.5-flash` (newest) currently returns persistent **503** on the free tier (overloaded); `2.5-flash` is stable. Switch via `GEMINI_CHAT_MODEL` when 3.5 settles. |
 | Embeddings | **`gemini-embedding-2`**, output dim **768**, `taskType`-aware (REST) | Current GA embedding model (Apr 2026); same provider; MRL-truncated from 3072→768 to keep cosine cheap |
 | Vector store | **In-memory cosine** + **JSON persistence** | Pure Dart, no native deps; brute-force is sub-ms at this scale (§1.1) |
 | **Retrieval strategy** | **Query-type router** (hero feature, §4) | Routes each query to full-corpus / name-filtered / vector retrieval to maximize recall *and* precision |
 | PDF generation | **`pdf`** package (DavBfr) | Pure-Dart PDF rendering for the generator |
 | PDF text extraction | **`pdftotext` (poppler) via `Process.run`**, sidecar JSON fallback | Real extraction from the PDFs (ING-01); sidecar guarantees robustness (§6.2) |
-| Image generation | Gemini image generation / Imagen API | AI profile photos (CV-02) |
+| Profile photos | `thispersondoesnotexist.com` (StyleGAN AI faces) + drawn-avatar fallback | Gemini/Imagen image gen is **not on the free tier** (`limit: 0`); this returns genuinely AI-generated faces via a keyless HTTPS GET (CV-02) |
 | HTTP | `dio` (app), `package:http` (backend/tools) | Standard clients |
 
 ### 1.1 Vector store: why in-memory cosine
 25–30 CVs produce a few hundred section-level vectors. A **brute-force cosine scan is sub-millisecond** at that size, so an ANN index (e.g. ObjectBox HNSW) adds setup cost — including a native library that must be installed manually on the host — for zero practical benefit. In-memory cosine is pure Dart, has no native dependency, behaves identically in the ingest CLI and the server, and is trivially portable.
 
-The ingest tool writes `data/index/embeddings.json` (chunks + vectors + metadata); the backend loads it into memory at startup behind a `VectorIndex` interface. That interface can later be backed by Hive or ObjectBox without touching `Retriever` or `RagService`.
+The ingest tool writes `data/index/embeddings.json` (chunks + vectors + metadata); the backend loads it into memory at startup behind a `VectorIndex` interface. In other words, **the JSON file *is* the store and the in-memory list *is* the index** — retrieval (§5.6) is real, it just runs as plain Dart over that list instead of inside a DB engine. The `VectorIndex` interface can later be backed by Hive or ObjectBox without touching `Retriever` or `RagService`.
 
 ---
 
@@ -210,11 +210,84 @@ Raw cosine cutoffs are uncalibrated, so we **do not** gate answers on an absolut
 ### 5.5 `PromptBuilder` & injection defense
 System prompt enforces: answer only from provided CV context; say so when unknown; never invent candidates/facts; only answer questions about the CVs; no subjective/discriminatory judgments (UC-25). Retrieved CV text is wrapped in delimited blocks **labeled as untrusted data**, with an instruction to ignore any instructions inside it (RAG-09 / ERR-09).
 
-### 5.6 `VectorIndex` + `Retriever`
-- `VectorIndex.load()` reads `embeddings.json` into memory at startup.
-- `Retriever.byCandidate(names)` → metadata filter on `candidateName` (name-filtered strategy, #3).
-- `Retriever.all()` → every chunk (full-corpus strategy).
-- `Retriever.search(queryVec, k)` → cosine rank, top-k (semantic strategy; default k=6, NFR-09).
+### 5.6 `VectorIndex` + `Retriever` — finding the right chunk without a database
+
+There is no database engine, but there **is** a store. `embeddings.json` is the persisted index; at startup `VectorIndex.load()` deserializes it into an in-memory `List<CvChunk>`, where each chunk carries its text, metadata (`candidateName`, `sourceFile`, `section`), and 768-dim vector. A vector database would hold exactly this same data — its only extra trick is an ANN structure (e.g. HNSW) to avoid scanning every vector. At a few hundred chunks we don't need that trick: we scan them all in well under a millisecond. So "no DB" does **not** mean "no retrieval" — the nearest-neighbour search just runs as plain Dart over an in-memory list.
+
+#### How retrieval works, end to end
+
+**Stage 1 — Ingest (once, `tools/ingest.dart`).** Each chunk's text is sent to Gemini `embedContent` with `taskType=RETRIEVAL_DOCUMENT`, which returns a 768-dimensional vector — a numeric "fingerprint" of the text's meaning. The chunk + vector + metadata is written to `embeddings.json`:
+```json
+{ "chunkId": "jane_doe#skills", "candidateName": "Jane Doe", "section": "skills",
+  "text": "Python, Dart, AWS", "embedding": [0.013, -0.221, "…768 floats" ] }
+```
+
+**Stage 2 — Startup.** `VectorIndex.load()` reads that file into a `List<CvChunk>` kept in memory for the lifetime of the server (a few MB, loaded once).
+
+**Stage 3 — Per query (semantic branch).** The *question* is embedded with `taskType=RETRIEVAL_QUERY` → a 768-dim query vector. We score it against every chunk with **cosine similarity** (how closely two vectors point the same way: `1.0` = same meaning, `~0` = unrelated), sort descending, and keep the top-k. Because embeddings encode *meaning*, this matches even when the words differ — *"who has led cloud migrations?"* scores high against a CV that says *"managed AWS migration projects"*.
+
+#### Reference implementation
+```dart
+import 'dart:math';
+
+/// Cosine similarity — this is the retrieval "engine". No package, no native lib.
+double cosine(List<double> a, List<double> b) {
+  var dot = 0.0, na = 0.0, nb = 0.0;
+  for (var i = 0; i < a.length; i++) {
+    dot += a[i] * b[i];
+    na  += a[i] * a[i];
+    nb  += b[i] * b[i];
+  }
+  return dot / (sqrt(na) * sqrt(nb));
+}
+
+class ScoredChunk {
+  ScoredChunk(this.chunk, this.score);
+  final CvChunk chunk;
+  final double score;
+}
+
+class Retriever {
+  Retriever(this._chunks);
+  final List<CvChunk> _chunks;
+
+  /// SEMANTIC: rank every chunk by cosine against the query vector, take top-k.
+  List<ScoredChunk> search(List<double> queryVec, int k) {
+    final scored = _chunks
+        .map((c) => ScoredChunk(c, cosine(queryVec, c.embedding)))
+        .toList()
+      ..sort((x, y) => y.score.compareTo(x.score));
+    return scored.take(k).toList();
+  }
+
+  /// NAME-FILTERED: exact metadata match — never similarity.
+  List<CvChunk> byCandidate(List<String> names) =>
+      _chunks.where((c) => names.contains(c.candidateName)).toList();
+
+  /// FULL-CORPUS: everything (listing / aggregation).
+  List<CvChunk> all() => List.unmodifiable(_chunks);
+}
+```
+
+#### Strategy per intent
+Which chunk is "correct" depends on the router's intent (§4); each strategy is a distinct, deterministic operation over the in-memory list:
+
+- `byCandidate(names)` → exact metadata filter on `candidateName`, **not** similarity — so "Summarize Jane Doe" always returns *Jane's* chunks, never a look-alike (name-filtered, #3).
+- `all()` → every chunk; used for listing/aggregation so nothing is missed (full recall).
+- `search(queryVec, k)` → cosine top-k (semantic; default k=6, NFR-09). Exactly what a vector DB does internally — minus the ANN index we don't need at this scale.
+
+**Worked examples:**
+
+| Query | Intent | How the chunk is located |
+|-------|--------|--------------------------|
+| "Summarize Jane Doe" | candidateSpecific | metadata filter `candidateName == "Jane Doe"` → her section chunks |
+| "Who knows Python?" | listing | all chunks → LLM selects matches (recall guaranteed) |
+| "How many know React?" | aggregation | all chunks → LLM counts across the full corpus |
+| "Who has led cloud migrations?" | semantic | embed query → cosine over all vectors → top-k |
+| "Compare Jane Doe and John Smith" | comparison | metadata filter for both names → their chunks |
+
+#### Why no vector database
+A vector DB (Pinecone, Qdrant, pgvector…) stores these same vectors and adds an ANN index so `search` stays fast across *millions* of vectors. With a few hundred, the linear scan above is sub-millisecond, so the index earns nothing while adding infra and native dependencies (§1.1). The `VectorIndex` interface keeps the door open — swap in Hive/ObjectBox later without touching `Retriever` or `RagService`. Memory cost today is negligible (~400 chunks × 768 floats ≈ a few MB).
 
 ### 5.7 `GeminiClient`
 - `classify(message) → QueryIntent` (JSON-mode chat call).
@@ -260,7 +333,9 @@ We chunk **one chunk per CV section** (summary, experience, education, skills, l
 Enumerate `data/cvs/*.pdf` → extract (poppler, sidecar fallback) → section-chunk with `candidateName`/`section` metadata → embed in batches (`RETRIEVAL_DOCUMENT`) → write `data/index/embeddings.json` keyed by `chunkId` (idempotent) → print per-file status (success/skipped/failed).
 
 ### 6.5 `tools/generate_cvs.dart` (CV-01…10)
-25–30 diverse profiles (roles, seniorities, languages) → **seed canonical entities** (a "Jane Doe", a UPC graduate, several Python candidates) → Gemini structured CV text → image API photo → render PDF (`pdf` package) → write `<slug>.pdf` + `<slug>.json`. Seeded RNG for reproducibility; some shared skills/schools (meaningful filters); ≥1 duplicate first name (disambiguation, UC-24).
+25–30 diverse profiles (roles, seniorities, languages) → **seed canonical entities** (a "Jane Doe", a UPC graduate, several Python candidates) → `gemini-3.5-flash` structured CV text (JSON schema) → AI face from `thispersondoesnotexist.com` (drawn-avatar fallback) → render PDF (`pdf` package, capitalised section headers so extraction can split sections) → write `<slug>.pdf` + `<slug>.json`. Seeded RNG for reproducibility; some shared skills/schools (meaningful filters); ≥1 duplicate first name (disambiguation, UC-24).
+
+> Note: Gemini/Imagen image generation is unavailable on the free tier (`limit: 0`), so photos come from `thispersondoesnotexist.com` (StyleGAN — genuinely AI-generated). Text generation stays on `gemini-3.5-flash`.
 
 ---
 
