@@ -11,17 +11,8 @@
 .env.*
 !.env.example
 
-# Python
-__pycache__/
-*.py[cod]
-venv/
-.venv/
-
-# Vector store / generated data
-data/index/
-data/embeddings/
-*.faiss
-*.pkl
+# Backend generated vector index (rebuilt by tools/ingest.dart)
+backend/data/index/
 
 # IDE
 .idea/
