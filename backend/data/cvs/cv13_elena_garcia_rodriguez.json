@@ -1,0 +1,54 @@
+{
+  "name": "Elena Garcia Rodriguez",
+  "role": "QA Automation Engineer",
+  "email": "elena.garcia.r@email.com",
+  "phone": "+34 600 123 456",
+  "location": "Barcelona, Spain",
+  "summary": "Ingeniera de QA con 5 años de experiencia en automatización de pruebas para aplicaciones web y móviles. Experta en Selenium, Cypress y metodologías ágiles. Busco aplicar mis habilidades para mejorar la calidad y eficiencia en el ciclo de desarrollo de software.",
+  "experience": [
+    {
+      "title": "QA Automation Engineer",
+      "company": "TechSolutions Iberia",
+      "period": "Marzo 2021 - Presente",
+      "description": "Diseño, desarrollo y mantenimiento de frameworks de automatización de pruebas utilizando Selenium WebDriver con Java. Implementación de pruebas E2E, de regresión y de API (REST Assured). Colaboración estrecha con equipos de desarrollo y producto en un entorno ágil (Scrum)."
+    },
+    {
+      "title": "Junior QA Automation Engineer",
+      "company": "Innovatech Software",
+      "period": "Septiembre 2019 - Febrero 2021",
+      "description": "Automatización de casos de prueba para aplicaciones web utilizando Cypress y JavaScript. Creación y ejecución de scripts de prueba, reporte de bugs y seguimiento. Participación en revisiones de código y documentación de procesos de QA."
+    },
+    {
+      "title": "QA Tester",
+      "company": "Digital Horizons",
+      "period": "Junio 2018 - Agosto 2019",
+      "description": "Ejecución de pruebas manuales funcionales y de regresión. Identificación y documentación de defectos. Colaboración en la definición de planes de prueba y casos de uso."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Grado en Ingeniería Informática",
+      "institution": "Universitat Politècnica de Catalunya",
+      "period": "2014 - 2018"
+    }
+  ],
+  "skills": [
+    "Selenium WebDriver",
+    "Cypress",
+    "Java",
+    "JavaScript",
+    "Python",
+    "REST Assured",
+    "API Testing",
+    "Git",
+    "Jenkins",
+    "Agile Methodologies",
+    "Scrum",
+    "JIRA"
+  ],
+  "languages": [
+    "Spanish (Nativo)",
+    "English (Avanzado)",
+    "Catalan (Nativo)"
+  ]
+}

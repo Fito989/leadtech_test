@@ -1,0 +1,59 @@
+{
+  "name": "Sofia Almeida",
+  "role": "Backend Engineer (Java)",
+  "email": "sofia.almeida.dev@email.com",
+  "phone": "+351 912 345 678",
+  "location": "Lisbon, Portugal",
+  "summary": "Mid-level Backend Engineer with 5 years of experience in designing, developing, and maintaining scalable Java-based applications. Proven ability to contribute to all phases of the software development lifecycle, from conception to deployment. Seeking to leverage expertise in microservices and cloud technologies to drive innovation.",
+  "experience": [
+    {
+      "title": "Software Engineer",
+      "company": "TechSolutions Portugal",
+      "period": "Jan 2021 - Present",
+      "description": "Developed and maintained microservices using Java and Spring Boot, focusing on RESTful API design and implementation. Collaborated with cross-functional teams to define, design, and ship new features. Implemented unit and integration tests to ensure code quality and reliability. Participated in code reviews and mentored junior developers."
+    },
+    {
+      "title": "Junior Backend Developer",
+      "company": "Innovatech Labs",
+      "period": "Jun 2019 - Dec 2020",
+      "description": "Assisted in the development of backend systems using Java and related technologies. Contributed to database design and optimization. Wrote and maintained technical documentation. Gained experience with Agile methodologies and CI/CD pipelines."
+    },
+    {
+      "title": "Intern Software Developer",
+      "company": "Global Software Services",
+      "period": "Jan 2019 - May 2019",
+      "description": "Supported the backend development team with bug fixing and feature implementation. Learned foundational concepts of Java development and version control systems. Assisted with testing and deployment processes."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Computer Engineering",
+      "institution": "Instituto Superior Técnico",
+      "period": "2017 - 2019"
+    },
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "Universidade Nova de Lisboa",
+      "period": "2014 - 2017"
+    }
+  ],
+  "skills": [
+    "Java",
+    "Spring Boot",
+    "Spring Framework",
+    "Microservices",
+    "RESTful APIs",
+    "SQL",
+    "PostgreSQL",
+    "Docker",
+    "Git",
+    "Maven",
+    "JUnit",
+    "Agile Methodologies"
+  ],
+  "languages": [
+    "Portuguese (Native)",
+    "English (Fluent)",
+    "Spanish (Intermediate)"
+  ]
+}

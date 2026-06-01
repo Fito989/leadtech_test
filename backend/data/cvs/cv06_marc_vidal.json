@@ -1,0 +1,54 @@
+{
+  "name": "Marc Vidal",
+  "role": "Frontend Engineer",
+  "email": "marc.vidal.dev@email.com",
+  "phone": "+34 600 123 456",
+  "location": "Valencia, Spain",
+  "summary": "Mid-level Frontend Engineer with 5 years of experience in building responsive and user-friendly web applications. Proficient in modern JavaScript frameworks and passionate about creating clean, efficient, and maintainable code. Seeking to leverage expertise in a challenging and collaborative environment.",
+  "experience": [
+    {
+      "title": "Frontend Developer",
+      "company": "Innovatech Solutions",
+      "period": "Jan 2021 - Present",
+      "description": "Developed and maintained user interfaces for various web applications using React and TypeScript. Collaborated with backend developers and designers to implement new features and improve existing ones. Optimized application performance and ensured cross-browser compatibility."
+    },
+    {
+      "title": "Junior Frontend Developer",
+      "company": "Digital Creations Agency",
+      "period": "Jun 2019 - Dec 2020",
+      "description": "Assisted in the development of client websites using HTML, CSS, and JavaScript. Implemented responsive designs and ensured adherence to brand guidelines. Participated in code reviews and learned best practices for frontend development."
+    },
+    {
+      "title": "Web Development Intern",
+      "company": "Creative Web Studio",
+      "period": "Jan 2019 - May 2019",
+      "description": "Supported the development team in creating static and dynamic web pages. Gained practical experience with version control systems and basic frontend technologies."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "Universitat Politècnica de València",
+      "period": "Sep 2015 - Jun 2019"
+    }
+  ],
+  "skills": [
+    "JavaScript (ES6+)",
+    "React",
+    "TypeScript",
+    "HTML5",
+    "CSS3",
+    "Sass/SCSS",
+    "Webpack",
+    "Git",
+    "RESTful APIs",
+    "Agile Methodologies",
+    "Responsive Design",
+    "UI/UX Principles"
+  ],
+  "languages": [
+    "Spanish (Native)",
+    "English (Fluent)",
+    "Valencian (Native)"
+  ]
+}

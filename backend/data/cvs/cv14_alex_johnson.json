@@ -1,0 +1,60 @@
+{
+  "name": "Alex Johnson",
+  "role": "Senior Site Reliability Engineer",
+  "email": "alex.johnson.sre@email.com",
+  "phone": "+1234567890",
+  "location": "Remote (EU)",
+  "summary": "Highly motivated Senior Site Reliability Engineer with 8+ years of experience in designing, implementing, and maintaining scalable and resilient cloud infrastructure. Proven ability to automate complex processes, improve system performance, and ensure high availability for critical applications. Seeking to leverage expertise in cloud-native technologies and operational excellence to contribute to a forward-thinking organization.",
+  "experience": [
+    {
+      "title": "Senior Site Reliability Engineer",
+      "company": "CloudScale Solutions",
+      "period": "2020 - Present",
+      "description": "Led the design and implementation of Kubernetes-based infrastructure for microservices, achieving 99.99% uptime. Developed and maintained CI/CD pipelines using Jenkins and GitLab CI, reducing deployment times by 40%. Implemented robust monitoring and alerting systems using Prometheus and Grafana, enabling proactive issue detection. Mentored junior engineers on best practices for SRE and cloud operations."
+    },
+    {
+      "title": "Site Reliability Engineer",
+      "company": "TechForward Inc.",
+      "period": "2017 - 2020",
+      "description": "Managed and optimized AWS infrastructure, including EC2, S3, RDS, and VPC. Implemented infrastructure as code using Terraform and Ansible for automated provisioning and configuration. Collaborated with development teams to troubleshoot production issues and improve application performance. Contributed to the development of disaster recovery plans and conducted regular testing."
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "Innovate Systems",
+      "period": "2015 - 2017",
+      "description": "Supported CI/CD processes and automated build/deployment tasks. Monitored system health and performance, identifying and resolving bottlenecks. Assisted in the migration of on-premise applications to cloud environments. Participated in on-call rotations to ensure system availability."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "institution": "University of Technology",
+      "period": "2013 - 2015"
+    },
+    {
+      "degree": "Bachelor of Science in Software Engineering",
+      "institution": "Technical University of Berlin",
+      "period": "2009 - 2013"
+    }
+  ],
+  "skills": [
+    "Kubernetes",
+    "Docker",
+    "AWS",
+    "Terraform",
+    "Ansible",
+    "Prometheus",
+    "Grafana",
+    "Jenkins",
+    "GitLab CI",
+    "Python",
+    "Go",
+    "Linux Administration",
+    "CI/CD"
+  ],
+  "languages": [
+    "English (Native)",
+    "German (Fluent)",
+    "Spanish (Conversational)"
+  ]
+}

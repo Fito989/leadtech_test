@@ -1,0 +1,59 @@
+{
+  "name": "Elena Garcia",
+  "role": "Senior Machine Learning Engineer",
+  "email": "elena.garcia.ml@email.com",
+  "phone": "+34 600 123 456",
+  "location": "Madrid, Spain",
+  "summary": "Highly accomplished Senior Machine Learning Engineer with over 8 years of experience in designing, developing, and deploying scalable ML models. Proven ability to lead complex projects from conception to production, driving significant improvements in business metrics. Seeking to leverage expertise in deep learning and MLOps to contribute to innovative AI solutions.",
+  "experience": [
+    {
+      "title": "Senior Machine Learning Engineer",
+      "company": "Innovatech Solutions",
+      "period": "January 2019 - Present",
+      "description": "Led the development of a recommendation engine using collaborative filtering and deep learning, resulting in a 25% increase in user engagement. Designed and implemented MLOps pipelines for automated model training, deployment, and monitoring. Mentored junior engineers and collaborated with cross-functional teams to define ML strategy."
+    },
+    {
+      "title": "Machine Learning Engineer",
+      "company": "DataDriven Insights",
+      "period": "June 2016 - December 2018",
+      "description": "Developed and optimized natural language processing models for sentiment analysis and text classification. Built data pipelines for feature engineering and model evaluation. Contributed to the research and prototyping of new ML algorithms."
+    },
+    {
+      "title": "Data Scientist Intern",
+      "company": "AI Research Labs",
+      "period": "May 2015 - August 2015",
+      "description": "Assisted in data preprocessing and exploratory data analysis for various machine learning projects. Implemented baseline models and performed initial experiments."
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.Sc. in Computer Science (Specialization in Artificial Intelligence)",
+      "institution": "Universidad Politécnica de Madrid",
+      "period": "2014 - 2016"
+    },
+    {
+      "degree": "B.Sc. in Computer Engineering",
+      "institution": "Universidad Complutense de Madrid",
+      "period": "2010 - 2014"
+    }
+  ],
+  "skills": [
+    "Python",
+    "TensorFlow",
+    "PyTorch",
+    "Scikit-learn",
+    "Keras",
+    "Pandas",
+    "NumPy",
+    "SQL",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "MLOps"
+  ],
+  "languages": [
+    "Spanish (Native)",
+    "English (Fluent)",
+    "French (Intermediate)"
+  ]
+}

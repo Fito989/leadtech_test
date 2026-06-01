@@ -1,0 +1,59 @@
+{
+  "name": "Aoife O'Connell",
+  "role": "Technical Writer",
+  "email": "aoife.oconnell.writer@email.com",
+  "phone": "+353 87 123 4567",
+  "location": "Dublin, Ireland",
+  "summary": "Mid-level Technical Writer with 5 years of experience creating clear, concise, and accurate documentation for software products. Proven ability to translate complex technical information into user-friendly guides, API references, and tutorials. Seeking to leverage expertise in documentation tools and agile methodologies to contribute to a dynamic tech team.",
+  "experience": [
+    {
+      "title": "Technical Writer",
+      "company": "Innovate Solutions Ltd.",
+      "period": "January 2020 - Present",
+      "description": "Develop and maintain comprehensive documentation for SaaS products, including user manuals, online help systems, and release notes. Collaborate with engineering, product management, and QA teams to ensure technical accuracy and completeness. Utilize MadCap Flare and Confluence for content creation and management. Conduct user testing and gather feedback to improve documentation quality."
+    },
+    {
+      "title": "Junior Technical Writer",
+      "company": "TechGenius Corp.",
+      "period": "June 2018 - December 2019",
+      "description": "Assisted senior technical writers in creating and updating product documentation. Wrote and edited API reference guides and code examples. Managed documentation projects using JIRA and Git. Contributed to the development of style guides and templates."
+    },
+    {
+      "title": "Documentation Specialist (Intern)",
+      "company": "DataFlow Analytics",
+      "period": "May 2017 - August 2017",
+      "description": "Supported the documentation team by formatting documents, proofreading content, and organizing existing documentation repositories. Gained exposure to documentation tools and processes."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Arts in English and Digital Media",
+      "institution": "University College Dublin",
+      "period": "2014 - 2018"
+    },
+    {
+      "degree": "Certificate in Technical Communication",
+      "institution": "National College of Ireland",
+      "period": "2019"
+    }
+  ],
+  "skills": [
+    "MadCap Flare",
+    "Confluence",
+    "JIRA",
+    "Git",
+    "Markdown",
+    "HTML",
+    "CSS",
+    "API Documentation",
+    "REST APIs",
+    "Agile Methodologies",
+    "Information Architecture",
+    "Single Sourcing"
+  ],
+  "languages": [
+    "English (Native)",
+    "Irish (Conversational)",
+    "French (Basic)"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Elena Garcia",
+  "role": "Junior Data Analyst",
+  "email": "elena.garcia.analyst@email.com",
+  "phone": "+34 600 123 456",
+  "location": "Valencia, Spain",
+  "summary": "Enthusiastic and detail-oriented Junior Data Analyst with a strong foundation in data manipulation and visualization. Eager to leverage analytical skills and a passion for uncovering insights to contribute to data-driven decision-making. Seeking to grow within a dynamic team environment.",
+  "experience": [
+    {
+      "title": "Data Assistant Intern",
+      "company": "Innovatech Solutions",
+      "period": "June 2023 - December 2023",
+      "description": "Assisted senior analysts in collecting, cleaning, and organizing large datasets. Performed basic data validation and generated summary reports using Excel and SQL. Supported the creation of dashboards for internal team performance tracking."
+    },
+    {
+      "title": "Junior Business Intelligence Analyst",
+      "company": "Global Market Insights",
+      "period": "January 2024 - Present",
+      "description": "Extracting and analyzing data from various sources to identify trends and patterns. Developing SQL queries for data retrieval and manipulation. Creating visualizations and reports using Tableau to communicate findings to stakeholders. Collaborating with cross-functional teams to understand data requirements."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Statistics",
+      "institution": "University of Valencia",
+      "period": "September 2019 - May 2023"
+    },
+    {
+      "degree": "Certificate in Data Analytics",
+      "institution": "Online Learning Platform XYZ",
+      "period": "March 2023 - June 2023"
+    }
+  ],
+  "skills": [
+    "SQL",
+    "Python (Pandas, NumPy)",
+    "Microsoft Excel (Advanced)",
+    "Tableau",
+    "Power BI",
+    "Data Cleaning",
+    "Data Visualization",
+    "Statistical Analysis",
+    "Problem Solving",
+    "Communication"
+  ],
+  "languages": [
+    "Spanish (Native)",
+    "English (Fluent)",
+    "French (Basic)"
+  ]
+}

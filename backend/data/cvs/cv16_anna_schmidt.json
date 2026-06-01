@@ -1,0 +1,59 @@
+{
+  "name": "Anna Schmidt",
+  "role": "Senior Security Engineer",
+  "email": "anna.schmidt.sec@email.com",
+  "phone": "+49 176 12345678",
+  "location": "Berlin, Germany",
+  "summary": "Highly motivated Senior Security Engineer with over 8 years of experience in designing, implementing, and managing robust security solutions. Proven ability to identify vulnerabilities, mitigate risks, and ensure compliance with industry standards. Seeking to leverage expertise in cloud security and threat intelligence to enhance the security posture of a forward-thinking organization.",
+  "experience": [
+    {
+      "title": "Senior Security Engineer",
+      "company": "CyberGuard Solutions GmbH",
+      "period": "2019 - Present",
+      "description": "Lead the design and implementation of enterprise-level security infrastructure, including firewalls, IDS/IPS, and SIEM systems. Conduct regular vulnerability assessments and penetration testing to identify and remediate security weaknesses. Develop and enforce security policies and procedures, ensuring compliance with GDPR and ISO 27001. Mentor junior security analysts and contribute to incident response planning and execution."
+    },
+    {
+      "title": "Security Analyst",
+      "company": "SecureNet Technologies AG",
+      "period": "2016 - 2019",
+      "description": "Monitored network traffic for suspicious activities and responded to security incidents. Performed security audits and risk assessments for various client systems. Configured and maintained security tools, including endpoint protection and access control systems. Assisted in the development of security awareness training programs for employees."
+    },
+    {
+      "title": "Junior Network Administrator",
+      "company": "TechFlow Systems",
+      "period": "2014 - 2016",
+      "description": "Provided support for network infrastructure, including routers, switches, and servers. Implemented basic security measures such as firewall rules and user access controls. Assisted in troubleshooting network connectivity and performance issues."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Cybersecurity",
+      "institution": "Technical University of Berlin",
+      "period": "2012 - 2014"
+    },
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "Humboldt University of Berlin",
+      "period": "2009 - 2012"
+    }
+  ],
+  "skills": [
+    "Network Security",
+    "Cloud Security (AWS, Azure)",
+    "Vulnerability Assessment",
+    "Penetration Testing",
+    "SIEM (Splunk, ELK Stack)",
+    "Intrusion Detection/Prevention Systems (IDS/IPS)",
+    "Firewall Management",
+    "Incident Response",
+    "Cryptography",
+    "Python",
+    "Bash Scripting",
+    "Risk Management"
+  ],
+  "languages": [
+    "German (Native)",
+    "English (Fluent)",
+    "Spanish (Intermediate)"
+  ]
+}

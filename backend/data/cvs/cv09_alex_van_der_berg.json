@@ -1,0 +1,59 @@
+{
+  "name": "Alex van der Berg",
+  "role": "Senior iOS Engineer",
+  "email": "alex.vanderberg.dev@email.com",
+  "phone": "+31 6 12345678",
+  "location": "Amsterdam, Netherlands",
+  "summary": "Highly skilled Senior iOS Engineer with 8+ years of experience in developing and shipping robust, user-friendly mobile applications. Proven ability to lead development cycles, mentor junior engineers, and contribute to architectural decisions. Passionate about creating elegant solutions and staying at the forefront of mobile technology.",
+  "experience": [
+    {
+      "title": "Senior iOS Engineer",
+      "company": "TechSolutions BV",
+      "period": "January 2019 - Present",
+      "description": "Led the development of core features for a flagship e-commerce iOS application, serving over 1 million users. Collaborated with product managers and designers to translate requirements into technical specifications. Implemented advanced UI/UX components using Swift and SwiftUI, improving user engagement by 15%. Mentored a team of 3 junior iOS developers, fostering best practices in code quality and testing."
+    },
+    {
+      "title": "iOS Engineer",
+      "company": "Innovate Apps",
+      "period": "June 2016 - December 2018",
+      "description": "Developed and maintained native iOS applications using Objective-C and Swift. Contributed to the full app lifecycle, from concept to launch and post-launch support. Optimized application performance and memory usage, resulting in a 20% reduction in crash rates. Participated in code reviews and agile development processes."
+    },
+    {
+      "title": "Junior iOS Developer",
+      "company": "MobileFirst Creations",
+      "period": "August 2014 - May 2016",
+      "description": "Assisted in the development of various iOS applications. Wrote unit tests and UI tests to ensure code stability. Gained experience with version control systems (Git) and bug tracking tools. Supported senior developers in feature implementation and bug fixing."
+    }
+  ],
+  "education": [
+    {
+      "degree": "MSc Computer Science",
+      "institution": "University of Amsterdam",
+      "period": "2012 - 2014"
+    },
+    {
+      "degree": "BSc Software Engineering",
+      "institution": "Hogeschool van Amsterdam",
+      "period": "2008 - 2012"
+    }
+  ],
+  "skills": [
+    "Swift",
+    "Objective-C",
+    "SwiftUI",
+    "UIKit",
+    "Core Data",
+    "Realm",
+    "Git",
+    "Xcode",
+    "RESTful APIs",
+    "Agile Methodologies",
+    "Unit Testing",
+    "CI/CD"
+  ],
+  "languages": [
+    "Dutch (Native)",
+    "English (Fluent)",
+    "German (Conversational)"
+  ]
+}

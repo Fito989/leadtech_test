@@ -1,0 +1,62 @@
+{
+  "name": "Anna Schmidt",
+  "role": "Senior Fullstack Developer",
+  "email": "anna.schmidt.dev@email.com",
+  "phone": "+49 176 12345678",
+  "location": "Berlin, Germany",
+  "summary": "Highly motivated Senior Fullstack Developer with 8+ years of experience in designing, developing, and deploying scalable web applications. Proven ability to lead development teams and deliver high-quality software solutions across the entire stack. Seeking to leverage expertise in modern technologies to contribute to innovative projects.",
+  "experience": [
+    {
+      "title": "Senior Fullstack Developer",
+      "company": "TechSolutions GmbH",
+      "period": "2019 - Present",
+      "description": "Led the development of a new microservices-based e-commerce platform using Node.js, React, and PostgreSQL. Mentored junior developers and conducted code reviews to ensure code quality and adherence to best practices. Implemented CI/CD pipelines using Jenkins and Docker, reducing deployment time by 40%."
+    },
+    {
+      "title": "Fullstack Developer",
+      "company": "Innovatech AG",
+      "period": "2016 - 2019",
+      "description": "Developed and maintained features for a SaaS product, working with Python (Django) on the backend and Angular on the frontend. Collaborated with product managers to define requirements and translate them into technical specifications. Optimized database queries and improved application performance."
+    },
+    {
+      "title": "Junior Web Developer",
+      "company": "WebCrafters Studio",
+      "period": "2014 - 2016",
+      "description": "Built responsive websites and web applications for various clients using HTML, CSS, JavaScript, and PHP. Assisted in the integration of third-party APIs and performed basic database management tasks."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "institution": "Technical University of Berlin",
+      "period": "2012 - 2014"
+    },
+    {
+      "degree": "Bachelor of Science in Software Engineering",
+      "institution": "Humboldt University of Berlin",
+      "period": "2009 - 2012"
+    }
+  ],
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "Node.js",
+    "React",
+    "Angular",
+    "Python",
+    "Django",
+    "SQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "Git",
+    "CI/CD"
+  ],
+  "languages": [
+    "German (Native)",
+    "English (Fluent)",
+    "Spanish (Intermediate)"
+  ]
+}

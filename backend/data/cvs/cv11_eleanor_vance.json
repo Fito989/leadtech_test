@@ -1,0 +1,59 @@
+{
+  "name": "Eleanor Vance",
+  "role": "Senior Product Manager",
+  "email": "eleanor.vance.pm@email.com",
+  "phone": "+44 20 7946 0123",
+  "location": "London, UK",
+  "summary": "Highly accomplished Senior Product Manager with 8+ years of experience driving product strategy, roadmap development, and cross-functional team leadership in the tech industry. Proven ability to translate complex user needs into successful, market-leading digital products. Seeking to leverage expertise in agile methodologies and data-driven decision-making to contribute to innovative product growth.",
+  "experience": [
+    {
+      "title": "Senior Product Manager",
+      "company": "Innovate Solutions Ltd.",
+      "period": "January 2019 - Present",
+      "description": "Led the product lifecycle for a flagship SaaS platform, defining strategy, prioritizing features, and managing the roadmap. Collaborated closely with engineering, design, and marketing teams to deliver high-impact product releases. Conducted market research and user interviews to identify new opportunities and refine existing features, resulting in a 25% increase in user engagement."
+    },
+    {
+      "title": "Product Manager",
+      "company": "TechForward Group",
+      "period": "March 2016 - December 2018",
+      "description": "Managed the development and launch of new mobile applications, from concept to market. Defined product requirements, created user stories, and worked with development teams in an Agile environment. Analyzed product performance metrics and user feedback to iterate and improve product offerings, contributing to a 15% growth in user base."
+    },
+    {
+      "title": "Associate Product Manager",
+      "company": "Digital Dynamics Inc.",
+      "period": "June 2014 - February 2016",
+      "description": "Supported senior product managers in defining product strategy and executing product roadmaps. Conducted competitive analysis and gathered user feedback to inform product decisions. Assisted in the creation of product documentation and training materials."
+    }
+  ],
+  "education": [
+    {
+      "degree": "MSc in Digital Marketing",
+      "institution": "University College London (UCL)",
+      "period": "2012 - 2013"
+    },
+    {
+      "degree": "BSc in Computer Science",
+      "institution": "Imperial College London",
+      "period": "2009 - 2012"
+    }
+  ],
+  "skills": [
+    "Product Strategy",
+    "Roadmap Development",
+    "Agile Methodologies",
+    "Scrum",
+    "JIRA",
+    "Confluence",
+    "User Research",
+    "Market Analysis",
+    "Data Analysis",
+    "A/B Testing",
+    "SQL",
+    "Figma"
+  ],
+  "languages": [
+    "English (Native)",
+    "French (Professional Working Proficiency)",
+    "Spanish (Conversational)"
+  ]
+}

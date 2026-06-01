@@ -1,0 +1,53 @@
+{
+  "name": "Sofia Almeida",
+  "role": "Flutter Mobile Developer",
+  "email": "sofia.almeida.dev@email.com",
+  "phone": "+351 912 345 678",
+  "location": "Lisbon, Portugal",
+  "summary": "Mid-level Flutter Developer with 4 years of experience in building cross-platform mobile applications. Proven ability to deliver high-quality, user-friendly apps from concept to deployment. Seeking to leverage expertise in mobile development to contribute to innovative projects.",
+  "experience": [
+    {
+      "title": "Flutter Developer",
+      "company": "TechSolutions Portugal",
+      "period": "Jan 2021 - Present",
+      "description": "Developed and maintained cross-platform mobile applications using Flutter. Collaborated with UI/UX designers to implement intuitive user interfaces. Integrated RESTful APIs and managed state effectively. Participated in code reviews and agile development processes."
+    },
+    {
+      "title": "Junior Mobile Developer",
+      "company": "InovaApps Lda.",
+      "period": "Jun 2019 - Dec 2020",
+      "description": "Assisted in the development of native Android and iOS applications. Gained foundational experience in mobile development lifecycles. Worked on bug fixing and feature enhancements for existing applications."
+    },
+    {
+      "title": "Mobile Development Intern",
+      "company": "Digital Horizons",
+      "period": "Jan 2019 - May 2019",
+      "description": "Supported the mobile development team with testing and documentation. Learned basic principles of mobile app development and version control systems."
+    }
+  ],
+  "education": [
+    {
+      "degree": "BSc in Computer Science",
+      "institution": "Universidade Nova de Lisboa",
+      "period": "2015 - 2019"
+    }
+  ],
+  "skills": [
+    "Dart",
+    "Flutter",
+    "Android Development",
+    "iOS Development",
+    "RESTful APIs",
+    "Git",
+    "Agile Methodologies",
+    "UI/UX Design Principles",
+    "Firebase",
+    "Provider State Management",
+    "SQL"
+  ],
+  "languages": [
+    "Portuguese (Native)",
+    "English (Fluent)",
+    "Spanish (Conversational)"
+  ]
+}
