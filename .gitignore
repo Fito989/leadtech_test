@@ -1,11 +1,31 @@
 # Miscellaneous
 *.class
-*.lock
 *.log
 *.pyc
 *.swp
 .buildlog/
 .history
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Vector store / generated data
+data/index/
+data/embeddings/
+*.faiss
+*.pkl
+
+# IDE
+.idea/
+*.iml
 
 
 
