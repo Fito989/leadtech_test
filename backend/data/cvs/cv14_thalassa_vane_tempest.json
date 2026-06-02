@@ -1,0 +1,59 @@
+{
+  "name": "Thalassa Vane-Tempest",
+  "role": "Senior Site Reliability Engineer",
+  "email": "t.vanetempest@cloud-architect.eu",
+  "phone": "+353-87-555-0192",
+  "location": "Remote, EU",
+  "summary": "Highly experienced Site Reliability Engineer with over 10 years of expertise in designing scalable, fault-tolerant distributed systems. Proven track record in automating infrastructure lifecycle management and optimizing cloud-native performance for high-traffic global platforms.",
+  "experience": [
+    {
+      "title": "Senior SRE",
+      "company": "NebulaStream Systems",
+      "period": "2020 - Present",
+      "description": "Lead the migration of legacy monolithic services to a microservices architecture on Kubernetes, reducing deployment latency by 40 percent. Manage multi-region cloud infrastructure and implement robust observability stacks using Prometheus and Grafana."
+    },
+    {
+      "title": "Cloud Infrastructure Engineer",
+      "company": "Aetheris Data Solutions",
+      "period": "2016 - 2020",
+      "description": "Architected automated CI/CD pipelines using Jenkins and Terraform, significantly improving release frequency. Maintained 99.99 percent uptime for core customer-facing APIs through proactive incident response and chaos engineering."
+    },
+    {
+      "title": "Systems Administrator",
+      "company": "Ironclad Hosting Group",
+      "period": "2013 - 2016",
+      "description": "Managed large-scale Linux server environments and optimized database performance for high-concurrency web applications. Developed internal tooling in Python to automate routine server maintenance tasks."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Distributed Systems",
+      "institution": "Technical University of Delft",
+      "period": "2011 - 2013"
+    },
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "University of Warsaw",
+      "period": "2008 - 2011"
+    }
+  ],
+  "skills": [
+    "Kubernetes",
+    "Terraform",
+    "Python",
+    "Go",
+    "AWS",
+    "Prometheus",
+    "Grafana",
+    "Docker",
+    "Ansible",
+    "Linux Kernel Tuning",
+    "Helm",
+    "Kafka"
+  ],
+  "languages": [
+    "English (Native)",
+    "Dutch (Fluent)",
+    "Polish (Professional Working Proficiency)"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Boudewijn van der Veen",
+  "role": "Senior iOS Engineer",
+  "email": "b.vanderveen.dev@example.nl",
+  "phone": "+31 6 1234 5678",
+  "location": "Amsterdam, Netherlands",
+  "summary": "Highly skilled Senior iOS Engineer with over 8 years of experience in building high-performance, scalable mobile applications. Expert in Swift and SwiftUI with a proven track record of leading cross-functional teams to deliver seamless user experiences in the fintech and e-commerce sectors.",
+  "experience": [
+    {
+      "title": "Senior iOS Developer",
+      "company": "Adyen Tech Solutions",
+      "period": "2020 - Present",
+      "description": "Leading the development of core payment SDKs, improving transaction processing speed by 30% and mentoring junior developers on clean architecture and unit testing."
+    },
+    {
+      "title": "iOS Engineer",
+      "company": "Booking.com",
+      "period": "2017 - 2020",
+      "description": "Developed and maintained key features for the flagship travel app, focusing on performance optimization and implementing complex UI components using UIKit and Combine."
+    },
+    {
+      "title": "Mobile Developer",
+      "company": "WeTransfer",
+      "period": "2015 - 2017",
+      "description": "Collaborated on the mobile file-sharing platform, focusing on background task management and seamless cloud integration for iOS users."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "institution": "University of Amsterdam",
+      "period": "2013 - 2015"
+    },
+    {
+      "degree": "Bachelor of Science in Software Engineering",
+      "institution": "Delft University of Technology",
+      "period": "2010 - 2013"
+    }
+  ],
+  "skills": [
+    "Swift",
+    "SwiftUI",
+    "UIKit",
+    "Combine",
+    "Core Data",
+    "XCTest",
+    "GraphQL",
+    "CI/CD Pipelines",
+    "Git",
+    "MVVM Architecture",
+    "RESTful APIs"
+  ],
+  "languages": [
+    "Dutch (Native)",
+    "English (Fluent)",
+    "German (Conversational)"
+  ]
+}

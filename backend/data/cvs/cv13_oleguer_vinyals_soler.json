@@ -1,0 +1,54 @@
+{
+  "name": "Oleguer Vinyals-Soler",
+  "role": "QA Automation Engineer",
+  "email": "oleguer.vinyals@techmail.cat",
+  "phone": "+34 612 345 678",
+  "location": "Barcelona, Spain",
+  "summary": "Ingeniero de QA con 5 años de experiencia en el diseño y mantenimiento de frameworks de automatización robustos. Especializado en mejorar la calidad del software mediante pruebas end-to-end y la integración continua en entornos Agile.",
+  "experience": [
+    {
+      "title": "QA Automation Engineer",
+      "company": "BarnaTech Solutions",
+      "period": "2021 - Presente",
+      "description": "Desarrollo y mantenimiento de suites de pruebas automatizadas utilizando Selenium y Java. Implementación de pipelines de CI/CD con Jenkins para reducir el tiempo de despliegue en un 30%."
+    },
+    {
+      "title": "Software Tester",
+      "company": "Iberia Digital Systems",
+      "period": "2019 - 2021",
+      "description": "Ejecución de pruebas funcionales y de regresión. Creación de scripts de automatización con Cypress para aplicaciones web basadas en React."
+    },
+    {
+      "title": "Junior QA Analyst",
+      "company": "Catalunya Software Group",
+      "period": "2018 - 2019",
+      "description": "Documentación de casos de prueba y reporte de incidencias en Jira. Colaboración estrecha con el equipo de desarrollo para asegurar la cobertura de requisitos."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Grado en Ingeniería Informática",
+      "institution": "Universitat Politecnica de Catalunya",
+      "period": "2014 - 2018"
+    }
+  ],
+  "skills": [
+    "Java",
+    "Selenium WebDriver",
+    "Cypress",
+    "TestNG",
+    "JUnit",
+    "Jenkins",
+    "Docker",
+    "SQL",
+    "Postman",
+    "Jira",
+    "Git",
+    "API Testing"
+  ],
+  "languages": [
+    "Catalan (Nativo)",
+    "Español (Nativo)",
+    "Inglés (Profesional)"
+  ]
+}

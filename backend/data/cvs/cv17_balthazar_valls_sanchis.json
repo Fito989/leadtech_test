@@ -1,0 +1,53 @@
+{
+  "name": "Balthazar Valls-Sanchis",
+  "role": "Junior Data Analyst",
+  "email": "b.valls.sanchis@example.es",
+  "phone": "+34 612 345 678",
+  "location": "Valencia, Spain",
+  "summary": "Motivated Junior Data Analyst with a strong foundation in statistical analysis and database management. Eager to leverage technical skills in SQL and Python to drive data-informed decision-making within a dynamic team environment.",
+  "experience": [
+    {
+      "title": "Data Analyst Intern",
+      "company": "Levante Logistics Solutions",
+      "period": "2023-06 to 2023-12",
+      "description": "Assisted in cleaning and preprocessing large datasets for supply chain optimization. Created automated dashboards in Power BI to track daily delivery performance metrics."
+    },
+    {
+      "title": "Junior Research Assistant",
+      "company": "Mediterranean Institute of Economics",
+      "period": "2022-09 to 2023-05",
+      "description": "Conducted quantitative research on regional market trends using R and Excel. Managed internal databases and performed data validation tasks to ensure report accuracy."
+    },
+    {
+      "title": "Customer Support Analyst",
+      "company": "Valencia Tech Hub",
+      "period": "2021-06 to 2022-08",
+      "description": "Analyzed customer feedback logs to identify recurring technical issues. Generated weekly summary reports for the product development team to prioritize feature updates."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Statistics",
+      "institution": "Universitat de Valencia",
+      "period": "2018-09 to 2022-06"
+    }
+  ],
+  "skills": [
+    "SQL",
+    "Python",
+    "R",
+    "Power BI",
+    "Tableau",
+    "Excel",
+    "Pandas",
+    "NumPy",
+    "Google Analytics",
+    "Data Visualization",
+    "Statistical Modeling"
+  ],
+  "languages": [
+    "Spanish (Native)",
+    "Catalan (Native)",
+    "English (Professional Working Proficiency)"
+  ]
+}

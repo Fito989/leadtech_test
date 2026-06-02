@@ -1,0 +1,52 @@
+{
+  "name": "Zigor Valeriano-Sanz",
+  "role": "Junior Game Developer",
+  "email": "zigor.valeriano@example.es",
+  "phone": "+34 600 123 456",
+  "location": "Malaga, Spain",
+  "summary": "Passionate Junior Game Developer with a strong foundation in C++ and Unity engine development. Eager to contribute to creative gameplay mechanics and optimized rendering pipelines in a collaborative studio environment.",
+  "experience": [
+    {
+      "title": "Junior Game Developer Intern",
+      "company": "Costa del Sol Interactive",
+      "period": "2023-06 to 2024-02",
+      "description": "Assisted in the development of mobile puzzle games using Unity, focusing on UI implementation and performance optimization for low-end devices."
+    },
+    {
+      "title": "QA Tester",
+      "company": "Andalusia Gaming Labs",
+      "period": "2022-09 to 2023-05",
+      "description": "Performed rigorous bug tracking and regression testing for PC titles, providing detailed technical reports to the engineering team."
+    },
+    {
+      "title": "Technical Support Assistant",
+      "company": "Malaga Tech Solutions",
+      "period": "2021-06 to 2022-08",
+      "description": "Provided technical troubleshooting for software applications and assisted in basic scripting tasks to automate internal reporting tools."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Engineering",
+      "institution": "University of Malaga",
+      "period": "2018-09 to 2022-06"
+    }
+  ],
+  "skills": [
+    "C++",
+    "Unity",
+    "C#",
+    "Git",
+    "Unreal Engine",
+    "Blender",
+    "Python",
+    "SQL",
+    "Jira",
+    "Agile Methodology"
+  ],
+  "languages": [
+    "Spanish (Native)",
+    "English (Professional Working Proficiency)",
+    "Basque (Conversational)"
+  ]
+}

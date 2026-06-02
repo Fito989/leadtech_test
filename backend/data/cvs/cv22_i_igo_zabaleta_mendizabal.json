@@ -1,0 +1,59 @@
+{
+  "name": "Iñigo Zabaleta-Mendizabal",
+  "role": "Business Intelligence Analyst",
+  "email": "izabaleta.analytics@example.es",
+  "phone": "+34 612 345 678",
+  "location": "Madrid, Spain",
+  "summary": "Analista de Business Intelligence con 5 años de experiencia transformando datos complejos en estrategias de negocio accionables. Especialista en el diseño de dashboards interactivos y en la optimización de procesos de extracción de datos para mejorar la toma de decisiones corporativas.",
+  "experience": [
+    {
+      "title": "BI Analyst",
+      "company": "Iberia Logistics Solutions",
+      "period": "2021 - Presente",
+      "description": "Liderazgo en la migración de reportes a Power BI y automatización de flujos de datos mediante SQL, logrando una reducción del 20% en el tiempo de entrega de informes mensuales."
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Consultora Nexo Digital",
+      "period": "2019 - 2021",
+      "description": "Desarrollo de modelos predictivos para la retención de clientes y mantenimiento de bases de datos relacionales para clientes del sector retail."
+    },
+    {
+      "title": "Junior Data Specialist",
+      "company": "TechNova Iberia",
+      "period": "2018 - 2019",
+      "description": "Soporte en la limpieza y normalización de datos, además de la creación de cuadros de mando básicos en Excel y Tableau para el departamento de ventas."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Máster en Big Data y Business Intelligence",
+      "institution": "Universidad Politécnica de Madrid",
+      "period": "2017 - 2018"
+    },
+    {
+      "degree": "Grado en Estadística Aplicada",
+      "institution": "Universidad Complutense de Madrid",
+      "period": "2013 - 2017"
+    }
+  ],
+  "skills": [
+    "SQL",
+    "Power BI",
+    "Tableau",
+    "Python",
+    "DAX",
+    "Excel Avanzado",
+    "Google Analytics",
+    "ETL Processes",
+    "Data Warehousing",
+    "R",
+    "Snowflake",
+    "Azure Data Factory"
+  ],
+  "languages": [
+    "Español (Nativo)",
+    "Inglés (C1 - Profesional)",
+    "Euskera (Nativo)"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Biel Xifre-Vidal",
+  "role": "Data Scientist",
+  "email": "biel.xifre.vidal@example.cat",
+  "phone": "+34 612 345 678",
+  "location": "Barcelona, Spain",
+  "summary": "Results-oriented Data Scientist with 5 years of experience in predictive modeling and machine learning. Proven track record of transforming complex datasets into actionable business insights for retail and logistics sectors.",
+  "experience": [
+    {
+      "title": "Data Scientist",
+      "company": "LogiFlow Solutions",
+      "period": "2021 - Present",
+      "description": "Developed and deployed demand forecasting models using time-series analysis, reducing inventory overhead by 15 percent."
+    },
+    {
+      "title": "Junior Data Analyst",
+      "company": "RetailMetric Analytics",
+      "period": "2019 - 2021",
+      "description": "Automated reporting pipelines using SQL and Python, improving data accessibility for the marketing department."
+    },
+    {
+      "title": "Data Science Intern",
+      "company": "Barcelona Tech Hub",
+      "period": "2018 - 2019",
+      "description": "Assisted in cleaning and preprocessing large-scale datasets for urban mobility research projects."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Artificial Intelligence",
+      "institution": "Universitat Politècnica de Catalunya (UPC)",
+      "period": "2016 - 2018"
+    },
+    {
+      "degree": "Bachelor of Science in Mathematics",
+      "institution": "Universitat de Barcelona",
+      "period": "2012 - 2016"
+    }
+  ],
+  "skills": [
+    "Python",
+    "SQL",
+    "TensorFlow",
+    "Scikit-learn",
+    "Pandas",
+    "Tableau",
+    "Docker",
+    "AWS",
+    "PySpark",
+    "Git",
+    "R"
+  ],
+  "languages": [
+    "Catalan (Native)",
+    "Spanish (Native)",
+    "English (Professional Working Proficiency)"
+  ]
+}

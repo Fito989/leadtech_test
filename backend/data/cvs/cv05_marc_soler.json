@@ -1,61 +1,59 @@
 {
   "name": "Marc Soler",
   "role": "Senior DevOps Engineer",
-  "email": "marc.soler.devops@email.com",
-  "phone": "+34 600 123 456",
+  "email": "marc.soler.devops@example.cat",
+  "phone": "+34 612 345 678",
   "location": "Barcelona, Spain",
-  "summary": "Highly experienced Senior DevOps Engineer with over 8 years of expertise in automating, deploying, and managing scalable cloud infrastructure. Proven ability to streamline CI/CD pipelines, enhance system reliability, and foster collaboration between development and operations teams. Seeking to leverage advanced skills in cloud technologies and infrastructure as code to drive efficiency and innovation.",
+  "summary": "Highly experienced DevOps Engineer with over 8 years of expertise in architecting scalable cloud infrastructure and automating CI/CD pipelines. Proven track record in optimizing system reliability and reducing deployment latency for high-traffic enterprise applications.",
   "experience": [
     {
       "title": "Senior DevOps Engineer",
-      "company": "CloudScale Solutions",
-      "period": "2019 - Present",
-      "description": "Lead the design and implementation of CI/CD pipelines using Jenkins and GitLab CI, reducing deployment times by 40%. Manage and scale Kubernetes clusters on AWS (EKS) and GCP (GKE), ensuring high availability and performance. Implement Infrastructure as Code (IaC) using Terraform and Ansible for automated provisioning and configuration management. Monitor system health and performance using Prometheus, Grafana, and ELK stack, proactively addressing issues."
+      "company": "Nebula Systems Barcelona",
+      "period": "2020 - Present",
+      "description": "Lead the migration of legacy monolithic services to a microservices architecture on AWS using Kubernetes. Implemented GitOps workflows with ArgoCD, resulting in a 40% reduction in deployment time."
     },
     {
       "title": "DevOps Engineer",
-      "company": "TechFlow Innovations",
-      "period": "2016 - 2019",
-      "description": "Developed and maintained CI/CD pipelines for various applications, improving deployment frequency. Managed cloud infrastructure on AWS, including EC2, S3, and RDS. Implemented containerization solutions using Docker and orchestrated them with Docker Swarm. Collaborated with development teams to troubleshoot and resolve infrastructure-related issues."
+      "company": "Catalan Tech Solutions",
+      "period": "2017 - 2020",
+      "description": "Managed multi-region infrastructure using Terraform and Ansible. Developed custom Python scripts to automate monitoring alerts and log aggregation across distributed systems."
     },
     {
-      "title": "Junior System Administrator",
-      "company": "Global IT Services",
-      "period": "2014 - 2016",
-      "description": "Provided support for server administration, network maintenance, and user management. Assisted in the deployment and configuration of new hardware and software. Gained foundational knowledge in scripting and automation for routine tasks."
+      "title": "Systems Administrator",
+      "company": "Mediterranean Data Corp",
+      "period": "2015 - 2017",
+      "description": "Maintained on-premise server clusters and optimized database performance. Assisted in the initial transition to containerized environments using Docker."
     }
   ],
   "education": [
     {
-      "degree": "MSc in Computer Science",
-      "institution": "Universitat Politècnica de Catalunya",
-      "period": "2012 - 2014"
+      "degree": "Master of Science in Computer Engineering",
+      "institution": "Universitat Politecnica de Catalunya",
+      "period": "2013 - 2015"
     },
     {
-      "degree": "BSc in Software Engineering",
+      "degree": "Bachelor of Science in Informatics",
       "institution": "Universitat de Barcelona",
-      "period": "2008 - 2012"
+      "period": "2009 - 2013"
     }
   ],
   "skills": [
     "Python",
     "Kubernetes",
-    "Docker",
-    "AWS",
-    "GCP",
     "Terraform",
-    "Ansible",
+    "AWS",
+    "Docker",
     "Jenkins",
-    "GitLab CI",
     "Prometheus",
     "Grafana",
-    "ELK Stack",
+    "Ansible",
     "Linux Administration",
-    "Shell Scripting"
+    "Go",
+    "Helm"
   ],
   "languages": [
+    "Catalan (Native)",
     "Spanish (Native)",
-    "English (Fluent)",
-    "Catalan (Native)"
+    "English (Professional Working Proficiency)"
   ]
 }

@@ -1,0 +1,59 @@
+{
+  "name": "Iñigo Zabaleta-Vidal",
+  "role": "Engineering Manager",
+  "email": "inigo.zabaleta.vidal@techmail.es",
+  "phone": "+34 612 345 678",
+  "location": "Barcelona, Spain",
+  "summary": "Strategic Engineering Manager with over 10 years of experience leading high-performing distributed teams in the fintech sector. Proven track record in scaling cloud infrastructure and fostering engineering excellence through mentorship and agile transformation.",
+  "experience": [
+    {
+      "title": "Engineering Manager",
+      "company": "FinFlow Systems",
+      "period": "2020 - Present",
+      "description": "Lead a cross-functional team of 15 engineers building scalable payment processing APIs. Successfully migrated legacy monolith to microservices architecture, reducing system latency by 40 percent."
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "CloudScale Solutions",
+      "period": "2016 - 2020",
+      "description": "Architected cloud-native solutions for enterprise clients using AWS and Kubernetes. Mentored junior developers and implemented CI/CD pipelines that improved deployment frequency by 300 percent."
+    },
+    {
+      "title": "Software Developer",
+      "company": "NexGen Digital",
+      "period": "2013 - 2016",
+      "description": "Developed full-stack web applications using React and Node.js. Collaborated with product managers to define technical requirements and ensure timely delivery of feature releases."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Computer Engineering",
+      "institution": "Universitat Politecnica de Catalunya",
+      "period": "2011 - 2013"
+    },
+    {
+      "degree": "Bachelor of Science in Software Engineering",
+      "institution": "Universitat de Barcelona",
+      "period": "2007 - 2011"
+    }
+  ],
+  "skills": [
+    "Java",
+    "Python",
+    "TypeScript",
+    "AWS",
+    "Kubernetes",
+    "Docker",
+    "Terraform",
+    "PostgreSQL",
+    "Kafka",
+    "Agile Methodology",
+    "Team Leadership",
+    "System Architecture"
+  ],
+  "languages": [
+    "Spanish (Native)",
+    "Catalan (Native)",
+    "English (Professional Working Proficiency)"
+  ]
+}

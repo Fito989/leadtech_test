@@ -1,0 +1,53 @@
+{
+  "name": "Balthazar Valeriano-Soto",
+  "role": "Junior Web Developer",
+  "email": "b.valeriano.soto@webmail.es",
+  "phone": "+34 612 345 678",
+  "location": "Seville, Spain",
+  "summary": "Motivated Junior Web Developer with a strong foundation in modern frontend technologies and a passion for building responsive user interfaces. Eager to contribute to collaborative development teams while expanding expertise in full-stack architecture.",
+  "experience": [
+    {
+      "title": "Web Development Intern",
+      "company": "Guadalquivir Digital Solutions",
+      "period": "2023-06 to 2023-12",
+      "description": "Assisted in the maintenance of client websites and implemented responsive design updates using CSS and JavaScript. Collaborated with senior developers to debug frontend issues and improve page load performance."
+    },
+    {
+      "title": "Freelance Frontend Developer",
+      "company": "Self-Employed",
+      "period": "2022-09 to 2023-05",
+      "description": "Developed custom landing pages for local small businesses using HTML, CSS, and JavaScript. Managed client requirements and deployed sites via Netlify."
+    },
+    {
+      "title": "IT Support Assistant",
+      "company": "Andalusia Tech Hub",
+      "period": "2021-05 to 2022-08",
+      "description": "Provided technical support for internal software tools and assisted in basic website content updates. Gained experience in version control systems and collaborative workflows."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Higher Technician in Web Application Development",
+      "institution": "Instituto Tecnologico de Sevilla",
+      "period": "2020-09 to 2023-06"
+    }
+  ],
+  "skills": [
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "React",
+    "TypeScript",
+    "Git",
+    "Node.js",
+    "Tailwind CSS",
+    "Figma",
+    "SQL",
+    "REST APIs"
+  ],
+  "languages": [
+    "Spanish (Native)",
+    "English (Professional Working Proficiency)",
+    "French (Intermediate)"
+  ]
+}

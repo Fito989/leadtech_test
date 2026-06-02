@@ -1,0 +1,58 @@
+{
+  "name": "Thalassa Voulgaris",
+  "role": "Senior Security Engineer",
+  "email": "t.voulgaris@berlin-sec-tech.de",
+  "phone": "+49-151-9823-4451",
+  "location": "Berlin, Germany",
+  "summary": "Accomplished Senior Security Engineer with over 8 years of experience in cloud infrastructure protection and incident response. Proven track record in architecting zero-trust environments and leading cross-functional teams to mitigate complex cyber threats in high-scale enterprise systems.",
+  "experience": [
+    {
+      "title": "Senior Security Engineer",
+      "company": "SpreeCloud Solutions",
+      "period": "2020 - Present",
+      "description": "Lead the security architecture for multi-cloud environments, implementing automated threat detection and response workflows. Reduced incident resolution time by 40% through the deployment of custom SIEM integrations."
+    },
+    {
+      "title": "Security Engineer",
+      "company": "Nordic Fintech Systems",
+      "period": "2017 - 2020",
+      "description": "Managed vulnerability assessment programs and conducted regular penetration testing for core banking applications. Oversaw compliance audits for GDPR and ISO 27001 standards."
+    },
+    {
+      "title": "Junior Information Security Analyst",
+      "company": "Berlin Data Guard",
+      "period": "2015 - 2017",
+      "description": "Monitored network traffic for anomalies and assisted in the configuration of firewalls and intrusion detection systems. Provided technical support for internal security policy enforcement."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Cybersecurity",
+      "institution": "Technical University of Berlin",
+      "period": "2013 - 2015"
+    },
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "University of Athens",
+      "period": "2009 - 2013"
+    }
+  ],
+  "skills": [
+    "Python",
+    "Go",
+    "AWS Security",
+    "Kubernetes Security",
+    "Terraform",
+    "Splunk",
+    "Wireshark",
+    "Burp Suite",
+    "Docker",
+    "OAuth2",
+    "Penetration Testing"
+  ],
+  "languages": [
+    "Greek (Native)",
+    "English (Fluent)",
+    "German (Professional Working Proficiency)"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Iñigo Zabaleta-Mendizabal",
+  "role": "Senior Machine Learning Engineer",
+  "email": "izabaleta.m@techmail.es",
+  "phone": "+34 612 345 678",
+  "location": "Madrid, Spain",
+  "summary": "Accomplished Machine Learning Engineer with over 8 years of experience in designing and deploying scalable predictive models. Proven track record in optimizing deep learning architectures for production environments and leading cross-functional teams to deliver data-driven business solutions.",
+  "experience": [
+    {
+      "title": "Senior Machine Learning Engineer",
+      "company": "Iberia Data Solutions",
+      "period": "2020 - Present",
+      "description": "Lead the development of computer vision pipelines for automated logistics, improving processing speed by 40 percent. Mentor junior engineers and oversee the deployment of models using Kubernetes and cloud-native infrastructure."
+    },
+    {
+      "title": "Machine Learning Engineer",
+      "company": "Madrid FinTech Labs",
+      "period": "2017 - 2020",
+      "description": "Developed and maintained fraud detection algorithms using ensemble learning techniques. Collaborated with data scientists to transition research prototypes into high-availability microservices."
+    },
+    {
+      "title": "Data Scientist",
+      "company": "EuroAnalytics Group",
+      "period": "2015 - 2017",
+      "description": "Built predictive models for customer churn analysis and optimized marketing spend through advanced statistical modeling and A/B testing frameworks."
+    }
+  ],
+  "education": [
+    {
+      "degree": "MSc in Artificial Intelligence",
+      "institution": "Universidad Politecnica de Madrid",
+      "period": "2013 - 2015"
+    },
+    {
+      "degree": "BSc in Computer Science",
+      "institution": "Universidad de Navarra",
+      "period": "2009 - 2013"
+    }
+  ],
+  "skills": [
+    "Python",
+    "TensorFlow",
+    "PyTorch",
+    "Scikit-learn",
+    "Docker",
+    "Kubernetes",
+    "AWS SageMaker",
+    "SQL",
+    "Apache Spark",
+    "MLOps",
+    "Git"
+  ],
+  "languages": [
+    "Spanish (Native)",
+    "English (Professional Working Proficiency)",
+    "Basque (Native)"
+  ]
+}

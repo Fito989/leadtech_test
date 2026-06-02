@@ -1,0 +1,59 @@
+{
+  "name": "Iñigo Zabaleta-Mendizabal",
+  "role": "Principal Cloud Solutions Architect",
+  "email": "izabaleta.arch@techmail.es",
+  "phone": "+34 600 123 456",
+  "location": "Madrid, Spain",
+  "summary": "Strategic Cloud Architect with over 15 years of experience designing scalable, high-availability distributed systems. Proven track record in leading digital transformation initiatives and optimizing multi-cloud environments for global enterprises.",
+  "experience": [
+    {
+      "title": "Principal Cloud Architect",
+      "company": "Iberia Systems Solutions",
+      "period": "2018 - Present",
+      "description": "Lead the architectural strategy for enterprise-wide cloud migration, overseeing a portfolio of 50+ microservices and reducing infrastructure costs by 30% through serverless adoption."
+    },
+    {
+      "title": "Senior Cloud Engineer",
+      "company": "EuroCloud Dynamics",
+      "period": "2013 - 2018",
+      "description": "Designed and implemented robust CI/CD pipelines and automated infrastructure provisioning using Terraform, supporting a team of 40 developers."
+    },
+    {
+      "title": "Systems Administrator",
+      "company": "Madrid Tech Infrastructure",
+      "period": "2009 - 2013",
+      "description": "Managed on-premise data centers and transitioned legacy monolithic applications to early cloud-based virtualized environments."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Computer Engineering",
+      "institution": "Universidad Politecnica de Madrid",
+      "period": "2007 - 2009"
+    },
+    {
+      "degree": "Bachelor of Science in Telecommunications",
+      "institution": "Universidad Carlos III de Madrid",
+      "period": "2003 - 2007"
+    }
+  ],
+  "skills": [
+    "AWS",
+    "Azure",
+    "Kubernetes",
+    "Terraform",
+    "Python",
+    "Go",
+    "Docker",
+    "PostgreSQL",
+    "Prometheus",
+    "Grafana",
+    "Istio",
+    "Jenkins"
+  ],
+  "languages": [
+    "Spanish (Native)",
+    "English (Professional Working Proficiency)",
+    "Basque (Native)"
+  ]
+}

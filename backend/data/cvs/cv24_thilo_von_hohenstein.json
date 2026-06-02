@@ -1,0 +1,59 @@
+{
+  "name": "Thilo von Hohenstein",
+  "role": "Senior Embedded Systems Engineer",
+  "email": "thilo.v.hohenstein@munich-tech-mail.de",
+  "phone": "+49 89 555 0192",
+  "location": "Munich, Germany",
+  "summary": "Highly experienced Embedded Systems Engineer with over 10 years of expertise in developing safety-critical firmware for automotive and industrial applications. Proven track record in leading cross-functional teams to deliver high-performance, real-time systems while adhering to strict ISO 26262 standards.",
+  "experience": [
+    {
+      "title": "Senior Embedded Software Engineer",
+      "company": "Bavarian Automotive Dynamics",
+      "period": "2018 - Present",
+      "description": "Lead the development of powertrain control modules, focusing on low-level driver optimization and real-time operating system integration for electric vehicle platforms."
+    },
+    {
+      "title": "Embedded Systems Developer",
+      "company": "Isar Robotics Solutions",
+      "period": "2014 - 2018",
+      "description": "Designed and implemented firmware for autonomous warehouse robots, utilizing ARM Cortex-M architectures and optimizing power consumption for long-term battery operation."
+    },
+    {
+      "title": "Junior Firmware Engineer",
+      "company": "Munich Sensor Systems GmbH",
+      "period": "2012 - 2014",
+      "description": "Developed embedded drivers for industrial pressure sensors and assisted in the migration of legacy codebases to modern C standards."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Electrical Engineering",
+      "institution": "Technical University of Munich",
+      "period": "2010 - 2012"
+    },
+    {
+      "degree": "Bachelor of Science in Mechatronics",
+      "institution": "University of Stuttgart",
+      "period": "2007 - 2010"
+    }
+  ],
+  "skills": [
+    "C",
+    "C++",
+    "RTOS",
+    "ARM Cortex-M",
+    "CAN Bus",
+    "ISO 26262",
+    "Python",
+    "Git",
+    "Jira",
+    "Embedded Linux",
+    "SPI/I2C",
+    "Unit Testing"
+  ],
+  "languages": [
+    "German (Native)",
+    "English (Fluent)",
+    "French (Intermediate)"
+  ]
+}

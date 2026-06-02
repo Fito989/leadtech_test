@@ -1,0 +1,58 @@
+{
+  "name": "Thalassa Vane-Tempest",
+  "role": "Senior Product Manager",
+  "email": "t.vanetempest@techmail.co.uk",
+  "phone": "+44 7700 900452",
+  "location": "London, UK",
+  "summary": "Strategic Senior Product Manager with over 9 years of experience driving product vision and cross-functional execution in fintech and SaaS environments. Proven track record of scaling complex digital platforms and leading high-performing teams to deliver user-centric solutions that drive significant revenue growth.",
+  "experience": [
+    {
+      "title": "Senior Product Manager",
+      "company": "Nebula Financial Systems",
+      "period": "2020 - Present",
+      "description": "Lead the core payment gateway product line, overseeing a roadmap that increased transaction throughput by 40% and reduced latency by 200ms. Manage a cross-functional team of 12 engineers, designers, and data analysts."
+    },
+    {
+      "title": "Product Manager",
+      "company": "Vertex Cloud Solutions",
+      "period": "2017 - 2020",
+      "description": "Spearheaded the migration of legacy enterprise tools to a cloud-native architecture, resulting in a 30% improvement in customer retention. Collaborated with stakeholders to define product requirements and prioritize the backlog."
+    },
+    {
+      "title": "Associate Product Manager",
+      "company": "Blue Horizon Analytics",
+      "period": "2015 - 2017",
+      "description": "Supported the launch of a B2B data visualization dashboard, conducting extensive user research and A/B testing to optimize the onboarding flow and feature adoption rates."
+    }
+  ],
+  "education": [
+    {
+      "degree": "MSc in Innovation and Entrepreneurship",
+      "institution": "Imperial College London",
+      "period": "2013 - 2015"
+    },
+    {
+      "degree": "BSc in Computer Science",
+      "institution": "University of Bristol",
+      "period": "2010 - 2013"
+    }
+  ],
+  "skills": [
+    "Jira",
+    "Product Roadmap Strategy",
+    "SQL",
+    "Tableau",
+    "Agile Methodology",
+    "User Research",
+    "Figma",
+    "A/B Testing",
+    "Stakeholder Management",
+    "Python",
+    "Google Analytics"
+  ],
+  "languages": [
+    "English (Native)",
+    "French (Professional Working Proficiency)",
+    "Greek (Conversational)"
+  ]
+}

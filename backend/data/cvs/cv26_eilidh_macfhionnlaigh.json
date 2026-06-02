@@ -1,0 +1,59 @@
+{
+  "name": "Eilidh MacFhionnlaigh",
+  "role": "Senior NLP Research Engineer",
+  "email": "e.macfhionnlaigh@edinburgh-tech.example.com",
+  "phone": "+44 131 496 0123",
+  "location": "Edinburgh, UK",
+  "summary": "Accomplished NLP Research Engineer with over 8 years of experience in developing large-scale language models and semantic search architectures. Proven track record of deploying production-grade transformer models to solve complex linguistic challenges in multilingual environments.",
+  "experience": [
+    {
+      "title": "Senior NLP Research Engineer",
+      "company": "Caledonian AI Labs",
+      "period": "2020 - Present",
+      "description": "Lead the development of proprietary LLMs for specialized domain adaptation, resulting in a 30% improvement in inference efficiency. Mentored junior researchers and oversaw the transition of research prototypes into scalable cloud infrastructure."
+    },
+    {
+      "title": "NLP Engineer",
+      "company": "Highland Data Solutions",
+      "period": "2017 - 2020",
+      "description": "Designed and implemented custom tokenization pipelines and attention-based architectures for sentiment analysis. Collaborated with cross-functional teams to integrate NLP features into core customer-facing products."
+    },
+    {
+      "title": "Junior Data Scientist",
+      "company": "Forth Valley Analytics",
+      "period": "2015 - 2017",
+      "description": "Focused on statistical modeling and initial text classification tasks using traditional machine learning libraries. Assisted in the migration of legacy data processing scripts to modern Python-based workflows."
+    }
+  ],
+  "education": [
+    {
+      "degree": "PhD in Informatics (Natural Language Processing)",
+      "institution": "University of Edinburgh",
+      "period": "2011 - 2015"
+    },
+    {
+      "degree": "MSc in Artificial Intelligence",
+      "institution": "University of Glasgow",
+      "period": "2010 - 2011"
+    }
+  ],
+  "skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "Hugging Face Transformers",
+    "JAX",
+    "CUDA",
+    "Docker",
+    "Kubernetes",
+    "SQL",
+    "C++",
+    "Weights & Biases",
+    "Distributed Training"
+  ],
+  "languages": [
+    "English (Native)",
+    "Scottish Gaelic (Fluent)",
+    "French (Professional Working Proficiency)"
+  ]
+}

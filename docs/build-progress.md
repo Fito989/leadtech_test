@@ -1,20 +1,17 @@
 # Build Progress / Continuation Handoff
 
-> **Last updated:** 2026-06-06 (session 2)
+> **Last updated:** 2026-06-02 (session 3)
 > **Purpose:** so work can resume with a single "continue". Authoritative state of the implementation of [`tech-prd.md`](tech-prd.md).
 
 ## TL;DR — where we are
 - **The whole system is BUILT and compiles.** Backend `dart_frog build` passes; `flutter test` passes (3/3 cubit tests).
-- Backend validated live: `GET /health` → `{status:ok, indexReady:true, chunks:126, candidates:14}`, `GET /` OK, `POST /chat` returns a clean error envelope.
-- Dataset: **21 CVs generated** (`backend/data/cvs/cv01..cv21_*.pdf` + sidecars), **ingested → 126 chunks** in `data/index/embeddings.json`. Canonical seeds present (Jane Doe `cv01`, UPC grads, Pythons, Marc Soler/Vidal).
-- **BLOCKER (external): Gemini free-tier daily quota is exhausted** — `limit: 20 requests/day per model` (`GenerateRequestsPerDayPerProjectPerModel-FreeTier`). All chat models (3.5-flash=503, 2.5-flash / 2.0-flash / 2.5-flash-lite = 429) are used up for today. So the **live chat answer can't run until: (a) the daily quota resets, (b) billing is enabled, or (c) a fresh API key** is used. Embeddings use a separate 100/min limit (fine, incremental ingest handles it).
+- Dataset: **28 CVs generated** (`backend/data/cvs/cv01..cv28_*.pdf` + sidecars), **ingested → 168 chunks** in `data/index/embeddings.json`. All 28 unique names. Canonical seeds present (Jane Doe `cv01`, UPC grads, Pythons, Marc Soler/Vidal).
+- **NEXT:** start backend + app, run golden queries, verify end-to-end.
 
-## To finish when quota is available
-1. Fill the remaining CVs (resumable, skips existing): `cd backend && dart run tools/generate_cvs.dart` → should add cv22..cv28 (now also produces more unique names — generator prompt hardened).
-2. Re-ingest (incremental, cheap): `dart run tools/ingest.dart`.
-3. `dart_frog dev`, then in `app/`: `flutter run -d chrome --dart-define=BACKEND_BASE_URL=http://localhost:8080`.
-4. Verify golden queries (Python / UPC / Jane Doe / React count / COBOL / weather).
-- Known data-quality nit: the lite model reused common names (only 14 unique across 21). The generator prompt now demands distinctive names; regenerating fresh (delete `data/cvs/*`, rerun) with quota will fix it.
+## To run the full stack
+1. `dart_frog dev` in `backend/` (or `dart pub global run dart_frog_cli:dart_frog dev`)
+2. In a second terminal: `cd app && flutter run -d chrome --dart-define=BACKEND_BASE_URL=http://localhost:8080`
+3. Verify golden queries (Python / UPC / Jane Doe / React count / COBOL / weather).
 
 ## Task checklist — ALL CODE COMPLETE
 - [x] **#1 Scaffold** `backend/` + `app/`

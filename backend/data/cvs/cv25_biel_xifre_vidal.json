@@ -1,0 +1,59 @@
+{
+  "name": "Biel Xifre-Vidal",
+  "role": "Senior Platform Engineer",
+  "email": "biel.xifre.vidal@techmail.cat",
+  "phone": "+34 600 123 456",
+  "location": "Barcelona, Spain",
+  "summary": "Highly experienced Platform Engineer with over 8 years of expertise in designing scalable cloud-native architectures and automating CI/CD pipelines. Proven track record in optimizing Kubernetes clusters and implementing robust infrastructure-as-code practices to enhance developer productivity.",
+  "experience": [
+    {
+      "title": "Senior Platform Engineer",
+      "company": "NebulaStream Systems",
+      "period": "2020 - Present",
+      "description": "Lead the migration of legacy monolithic services to a microservices architecture on AWS using Kubernetes. Implemented GitOps workflows with ArgoCD and reduced deployment times by 40 percent."
+    },
+    {
+      "title": "Cloud Infrastructure Engineer",
+      "company": "IberiaData Solutions",
+      "period": "2017 - 2020",
+      "description": "Managed multi-region cloud infrastructure and developed internal tooling using Go to automate resource provisioning. Improved system reliability by implementing comprehensive observability stacks."
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "Catalan Tech Ventures",
+      "period": "2015 - 2017",
+      "description": "Maintained CI/CD pipelines and managed containerized environments for high-traffic web applications. Collaborated with development teams to streamline local development environments."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Computer Engineering",
+      "institution": "Universitat Politècnica de Catalunya (UPC)",
+      "period": "2013 - 2015"
+    },
+    {
+      "degree": "Bachelor of Science in Informatics Engineering",
+      "institution": "Universitat de Barcelona",
+      "period": "2009 - 2013"
+    }
+  ],
+  "skills": [
+    "Go",
+    "Kubernetes",
+    "Terraform",
+    "AWS",
+    "Docker",
+    "Prometheus",
+    "Grafana",
+    "Python",
+    "Helm",
+    "ArgoCD",
+    "Linux Administration",
+    "Bash Scripting"
+  ],
+  "languages": [
+    "Catalan (Native)",
+    "Spanish (Native)",
+    "English (Professional Working Proficiency)"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Zoltan Varga-Mendes",
+  "role": "Flutter Mobile Developer",
+  "email": "z.varga.mendes@techmail.pt",
+  "phone": "+351 912 345 678",
+  "location": "Lisbon, Portugal",
+  "summary": "Dedicated Mid-level Flutter Developer with over 4 years of experience building high-performance cross-platform mobile applications. Proven track record in optimizing UI rendering and integrating complex RESTful APIs to deliver seamless user experiences.",
+  "experience": [
+    {
+      "title": "Flutter Developer",
+      "company": "Lusitania Digital Solutions",
+      "period": "2021 - Present",
+      "description": "Lead the development of a fintech mobile application using Flutter, focusing on state management with BLoC and improving app startup time by 30 percent."
+    },
+    {
+      "title": "Junior Mobile Engineer",
+      "company": "Tagus Tech Labs",
+      "period": "2019 - 2021",
+      "description": "Collaborated in a team of five to migrate a legacy native Android app to a unified Flutter codebase, resulting in significant maintenance cost reductions."
+    },
+    {
+      "title": "Software Intern",
+      "company": "Lisbon Innovation Hub",
+      "period": "2018 - 2019",
+      "description": "Assisted in the UI design and implementation of internal productivity tools using Dart and Flutter, gaining foundational knowledge in mobile architecture."
+    }
+  ],
+  "education": [
+    {
+      "degree": "BSc in Computer Science",
+      "institution": "University of Lisbon",
+      "period": "2015 - 2018"
+    }
+  ],
+  "skills": [
+    "Dart",
+    "Flutter",
+    "BLoC Pattern",
+    "Firebase",
+    "RESTful APIs",
+    "Git",
+    "Provider",
+    "SQLite",
+    "CI/CD Pipelines",
+    "Unit Testing",
+    "Figma"
+  ],
+  "languages": [
+    "Portuguese (Native)",
+    "English (Fluent)",
+    "Hungarian (Conversational)"
+  ]
+}

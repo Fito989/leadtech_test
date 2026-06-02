@@ -1,0 +1,58 @@
+{
+  "name": "Thalassa Voulgaris",
+  "role": "Data Engineer",
+  "email": "t.voulgaris.data@provider.eu",
+  "phone": "+30-210-555-0192",
+  "location": "Remote, EU",
+  "summary": "Detail-oriented Data Engineer with 5 years of experience in building scalable ETL pipelines and optimizing cloud-based data warehouses. Proven track record in improving data quality and reducing latency for large-scale analytical platforms.",
+  "experience": [
+    {
+      "title": "Data Engineer",
+      "company": "Aegean Analytics Solutions",
+      "period": "2021 - Present",
+      "description": "Architected and maintained robust data pipelines using Apache Airflow and Python, resulting in a 30% increase in data processing efficiency for client dashboards."
+    },
+    {
+      "title": "Junior Data Engineer",
+      "company": "Nordic Fintech Systems",
+      "period": "2019 - 2021",
+      "description": "Developed complex SQL queries for financial reporting and automated data ingestion from multiple REST APIs into Snowflake."
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Balkan Retail Group",
+      "period": "2018 - 2019",
+      "description": "Collaborated with cross-functional teams to clean and transform raw datasets, supporting business intelligence initiatives with automated reporting tools."
+    }
+  ],
+  "education": [
+    {
+      "degree": "MSc in Data Science",
+      "institution": "Technical University of Athens",
+      "period": "2016 - 2018"
+    },
+    {
+      "degree": "BSc in Computer Science",
+      "institution": "University of Patras",
+      "period": "2012 - 2016"
+    }
+  ],
+  "skills": [
+    "Python",
+    "SQL",
+    "Apache Airflow",
+    "Snowflake",
+    "AWS",
+    "Docker",
+    "Kubernetes",
+    "dbt",
+    "Terraform",
+    "PostgreSQL",
+    "Spark"
+  ],
+  "languages": [
+    "Greek (Native)",
+    "English (Professional Working Proficiency)",
+    "German (Intermediate)"
+  ]
+}

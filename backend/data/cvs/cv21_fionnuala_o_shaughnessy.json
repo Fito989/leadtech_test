@@ -1,0 +1,58 @@
+{
+  "name": "Fionnuala O'Shaughnessy",
+  "role": "Technical Writer",
+  "email": "f.oshaughnessy@techmail.ie",
+  "phone": "+353 87 555 0192",
+  "location": "Dublin, Ireland",
+  "summary": "Detail-oriented Technical Writer with five years of experience creating comprehensive documentation for complex SaaS platforms. Proven track record in translating intricate technical concepts into user-friendly guides and API references to improve developer adoption.",
+  "experience": [
+    {
+      "title": "Technical Writer",
+      "company": "CloudStream Solutions",
+      "period": "2021 - Present",
+      "description": "Lead documentation efforts for cloud infrastructure APIs, maintaining a library of over 200 articles and tutorials. Collaborated with engineering teams to document new feature releases and deprecation cycles."
+    },
+    {
+      "title": "Junior Technical Writer",
+      "company": "FinTech Dynamics",
+      "period": "2019 - 2021",
+      "description": "Authored internal knowledge base articles and user manuals for financial software. Assisted in the migration of legacy documentation to a modern Markdown-based static site generator."
+    },
+    {
+      "title": "Content Coordinator",
+      "company": "Dublin Digital Media",
+      "period": "2018 - 2019",
+      "description": "Managed editorial calendars and performed quality assurance on technical blog posts and white papers for various technology clients."
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.A. in Technical Communication",
+      "institution": "University College Dublin",
+      "period": "2016 - 2018"
+    },
+    {
+      "degree": "B.A. in English and Computer Science",
+      "institution": "Trinity College Dublin",
+      "period": "2012 - 2016"
+    }
+  ],
+  "skills": [
+    "Markdown",
+    "DITA",
+    "Swagger/OpenAPI",
+    "Git",
+    "MadCap Flare",
+    "Confluence",
+    "Jira",
+    "HTML5",
+    "CSS3",
+    "Python",
+    "Adobe FrameMaker"
+  ],
+  "languages": [
+    "English (Native)",
+    "Irish (Fluent)",
+    "French (Intermediate)"
+  ]
+}

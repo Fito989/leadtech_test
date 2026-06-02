@@ -1,0 +1,59 @@
+{
+  "name": "Vasco Quintela-Sampaio",
+  "role": "Backend Engineer (Java)",
+  "email": "vasco.qsampaio@techmail.pt",
+  "phone": "+351 912 345 678",
+  "location": "Lisbon, Portugal",
+  "summary": "Dedicated Backend Engineer with over 5 years of experience in building scalable microservices and robust API architectures. Proven track record in optimizing Java-based systems and collaborating with cross-functional teams to deliver high-performance software solutions.",
+  "experience": [
+    {
+      "title": "Backend Developer",
+      "company": "Lusitania FinTech Solutions",
+      "period": "2021 - Present",
+      "description": "Lead the development of core payment processing modules using Java 17 and Spring Boot. Reduced latency by 25% through database query optimization and caching strategies."
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Tagus Digital Systems",
+      "period": "2018 - 2021",
+      "description": "Developed and maintained RESTful APIs for e-commerce platforms. Implemented CI/CD pipelines and automated testing suites to improve deployment reliability."
+    },
+    {
+      "title": "Junior Java Developer",
+      "company": "Alentejo Software House",
+      "period": "2016 - 2018",
+      "description": "Assisted in the migration of legacy monolithic applications to microservices. Gained hands-on experience with Spring Framework and PostgreSQL database management."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Computer Engineering",
+      "institution": "Instituto Superior Tecnico",
+      "period": "2014 - 2016"
+    },
+    {
+      "degree": "Bachelor of Science in Informatics",
+      "institution": "Universidade de Lisboa",
+      "period": "2011 - 2014"
+    }
+  ],
+  "skills": [
+    "Java",
+    "Spring Boot",
+    "Hibernate",
+    "PostgreSQL",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "Redis",
+    "Kafka",
+    "JUnit",
+    "Maven",
+    "Git"
+  ],
+  "languages": [
+    "Portuguese (Native)",
+    "English (Fluent)",
+    "Spanish (Conversational)"
+  ]
+}

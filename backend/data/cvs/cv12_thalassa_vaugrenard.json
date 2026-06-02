@@ -1,0 +1,59 @@
+{
+  "name": "Thalassa Vaugrenard",
+  "role": "UX/UI Designer",
+  "email": "t.vaugrenard@designmail.fr",
+  "phone": "+33 6 12 34 56 78",
+  "location": "Paris, France",
+  "summary": "Creative UX/UI Designer with 5 years of experience crafting intuitive digital interfaces and user-centered experiences. Proven track record in leading design sprints and collaborating with cross-functional teams to deliver high-impact mobile and web applications.",
+  "experience": [
+    {
+      "title": "Mid-level UX/UI Designer",
+      "company": "Lumiere Digital Agency",
+      "period": "2021 - Present",
+      "description": "Lead design efforts for enterprise clients, focusing on accessibility and design system maintenance. Conducted user research and usability testing to improve conversion rates by 25%."
+    },
+    {
+      "title": "Product Designer",
+      "company": "Velocite Tech",
+      "period": "2019 - 2021",
+      "description": "Designed end-to-end user flows for a fintech mobile app. Collaborated closely with developers to ensure pixel-perfect implementation and maintained the component library."
+    },
+    {
+      "title": "Junior UI Designer",
+      "company": "Atelier Pixel",
+      "period": "2018 - 2019",
+      "description": "Assisted in the creation of wireframes and high-fidelity prototypes for e-commerce platforms. Participated in client workshops and design critique sessions."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Arts in Interaction Design",
+      "institution": "Strate School of Design",
+      "period": "2016 - 2018"
+    },
+    {
+      "degree": "Bachelor of Fine Arts in Graphic Design",
+      "institution": "Ecole Nationale Superieure des Arts Decoratifs",
+      "period": "2013 - 2016"
+    }
+  ],
+  "skills": [
+    "Figma",
+    "Adobe Creative Suite",
+    "Protopie",
+    "Webflow",
+    "HTML5",
+    "CSS3",
+    "User Research",
+    "Wireframing",
+    "Prototyping",
+    "Design Systems",
+    "Accessibility Compliance",
+    "Interaction Design"
+  ],
+  "languages": [
+    "French (Native)",
+    "English (Fluent)",
+    "Spanish (Intermediate)"
+  ]
+}

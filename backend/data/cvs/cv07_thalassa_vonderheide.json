@@ -1,0 +1,59 @@
+{
+  "name": "Thalassa Vonderheide",
+  "role": "Senior Fullstack Developer",
+  "email": "t.vonderheide@berlin-tech-mail.de",
+  "phone": "+49-151-9283-7465",
+  "location": "Berlin, Germany",
+  "summary": "Accomplished Senior Fullstack Developer with over 9 years of experience in architecting scalable web applications and leading cross-functional engineering teams. Expert in modern JavaScript ecosystems and cloud-native infrastructure, with a proven track record of optimizing system performance and reducing technical debt.",
+  "experience": [
+    {
+      "title": "Senior Fullstack Engineer",
+      "company": "SpreeCloud Solutions",
+      "period": "2020 - Present",
+      "description": "Lead the development of a high-traffic e-commerce platform using React and Node.js, resulting in a 30% improvement in page load speeds. Mentor junior developers and oversee architectural decisions for microservices migration."
+    },
+    {
+      "title": "Fullstack Developer",
+      "company": "Berlin Fintech Dynamics",
+      "period": "2017 - 2020",
+      "description": "Developed secure financial transaction modules using TypeScript and PostgreSQL. Collaborated with product managers to implement agile workflows that increased sprint velocity by 20%."
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Nordic Web Systems",
+      "period": "2014 - 2017",
+      "description": "Built and maintained responsive front-end interfaces and RESTful APIs for enterprise clients. Assisted in the transition from monolithic architecture to containerized services using Docker."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "institution": "Technical University of Berlin",
+      "period": "2012 - 2014"
+    },
+    {
+      "degree": "Bachelor of Science in Software Engineering",
+      "institution": "University of Hamburg",
+      "period": "2009 - 2012"
+    }
+  ],
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Node.js",
+    "PostgreSQL",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "GraphQL",
+    "Redis",
+    "CI/CD Pipelines",
+    "System Architecture"
+  ],
+  "languages": [
+    "German (Native)",
+    "English (Fluent)",
+    "French (Intermediate)"
+  ]
+}

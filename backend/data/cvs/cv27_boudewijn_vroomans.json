@@ -1,0 +1,59 @@
+{
+  "name": "Boudewijn Vroomans",
+  "role": "Senior Scrum Master and Agile Coach",
+  "email": "b.vroomans.agile@example.nl",
+  "phone": "+31 6 1234 5678",
+  "location": "Rotterdam, Netherlands",
+  "summary": "Accomplished Agile practitioner with over 12 years of experience driving organizational transformation and team performance. Expert in scaling Scrum frameworks and fostering high-trust environments to deliver complex software solutions in fast-paced enterprise settings.",
+  "experience": [
+    {
+      "title": "Senior Agile Coach",
+      "company": "HavenTech Solutions",
+      "period": "2019 - Present",
+      "description": "Leading the enterprise-wide transition to SAFe for a 200-person engineering department. Mentoring middle management on servant leadership and optimizing value stream mapping to reduce delivery lead times by 30 percent."
+    },
+    {
+      "title": "Scrum Master",
+      "company": "Europoort Digital Systems",
+      "period": "2015 - 2019",
+      "description": "Facilitated Scrum ceremonies for three cross-functional squads. Successfully coached teams through a transition from Waterfall to Kanban, resulting in a significant increase in sprint velocity and stakeholder satisfaction."
+    },
+    {
+      "title": "Junior Scrum Master",
+      "company": "Rotterdam FinTech Group",
+      "period": "2012 - 2015",
+      "description": "Supported product owners in backlog refinement and user story mapping. Managed team impediments and promoted continuous improvement through data-driven retrospectives."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Business Administration",
+      "institution": "Erasmus University Rotterdam",
+      "period": "2009 - 2011"
+    },
+    {
+      "degree": "Bachelor of Science in Information Technology",
+      "institution": "Delft University of Technology",
+      "period": "2005 - 2009"
+    }
+  ],
+  "skills": [
+    "Scrum",
+    "Kanban",
+    "SAFe",
+    "LeSS",
+    "Jira",
+    "Confluence",
+    "Miro",
+    "Lean Thinking",
+    "Change Management",
+    "Conflict Resolution",
+    "Facilitation",
+    "OKRs"
+  ],
+  "languages": [
+    "Dutch (Native)",
+    "English (Fluent)",
+    "German (Professional Working Proficiency)"
+  ]
+}

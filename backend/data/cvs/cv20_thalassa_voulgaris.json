@@ -1,0 +1,58 @@
+{
+  "name": "Thalassa Voulgaris",
+  "role": "Senior React Frontend Engineer",
+  "email": "t.voulgaris.dev@protonmail.eu",
+  "phone": "+30-694-555-0128",
+  "location": "Remote, EU",
+  "summary": "Highly skilled Senior Frontend Engineer with over 8 years of experience specializing in building scalable, high-performance web applications using React and TypeScript. Proven track record of leading cross-functional teams to deliver complex UI architectures and optimizing frontend performance for global user bases.",
+  "experience": [
+    {
+      "title": "Senior Frontend Engineer",
+      "company": "NebulaStream Systems",
+      "period": "2020 - Present",
+      "description": "Lead the migration of a legacy monolithic frontend to a micro-frontend architecture using React and TypeScript. Improved page load times by 40% and mentored a team of 5 junior developers."
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "Aetheria Digital Solutions",
+      "period": "2017 - 2020",
+      "description": "Developed and maintained responsive customer-facing dashboards. Implemented complex state management solutions using Redux and optimized API integration workflows."
+    },
+    {
+      "title": "Web Developer",
+      "company": "Vertex Creative Agency",
+      "period": "2015 - 2017",
+      "description": "Built interactive marketing websites and custom CMS components. Collaborated closely with designers to ensure pixel-perfect implementation of UI/UX specifications."
+    }
+  ],
+  "education": [
+    {
+      "degree": "MSc in Computer Science",
+      "institution": "Technical University of Athens",
+      "period": "2013 - 2015"
+    },
+    {
+      "degree": "BSc in Informatics",
+      "institution": "University of Patras",
+      "period": "2009 - 2013"
+    }
+  ],
+  "skills": [
+    "React",
+    "TypeScript",
+    "Next.js",
+    "Redux Toolkit",
+    "GraphQL",
+    "Tailwind CSS",
+    "Jest",
+    "Cypress",
+    "Webpack",
+    "Docker",
+    "Framer Motion"
+  ],
+  "languages": [
+    "Greek (Native)",
+    "English (Fluent)",
+    "German (Professional Working Proficiency)"
+  ]
+}
